@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+ a {
+  text-decoration: none;
+ }
+
+ body {
+  padding: 30px;
+ }
+
+ form label {
+  display: block;
+ }
+
+ blockquote {
+  border-left: 3px solid lightblue;
+  background-color: lightyellow;
+  width: 25%;
+  padding: 10px;
+ }

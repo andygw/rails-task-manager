@@ -1,0 +1,8 @@
+<h1>Edit this task</h1>
+
+<%= render 'form', task: @task %>
+
+<hr>
+
+<p><%= link_to "Back to #{@task.title}", task_path(@task) %></p>
+<p><%= link_to "Go home", tasks_path %></p>
